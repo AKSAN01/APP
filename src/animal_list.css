@@ -1,0 +1,17 @@
+.animal-list {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    overflow-x: auto;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.animal-list::-webkit-scrollbar {
+    height: 8px;
+}
+
+.animal-list::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
