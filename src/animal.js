@@ -1,16 +1,21 @@
 import './animal.css';
+import { Link } from 'react-router-dom';
 
-const Animal = ({ nombre, especie, raza, foto, descripcion }) => {
-    return (
+const Animal = ({ id, nombre, especie, raza, foto, descripcion }) => {
+  return (
     <div className='animal-card'>
+      <Link to={`/animal_list/${id}`}>
         <img src={foto} alt={nombre} />
-        <div className='info'>
+      </Link>
+      <div className='info'>
         <h2>{nombre}</h2>
         <p>{especie} - {raza}</p>
         <p>{descripcion}</p>
-        </div>
+      </div>
     </div>
-    );
+  );
 };
 
 export default Animal;
+
+

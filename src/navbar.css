@@ -1,0 +1,17 @@
+.navbar{
+
+    background-color: rgb(226, 147, 127);
+    padding: 10px;
+    margin-right: 1620px;
+    border-radius: 10px;
+}
+
+p{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+    text-decoration: underline none;
+
+}
